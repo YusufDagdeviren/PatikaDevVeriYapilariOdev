@@ -68,3 +68,94 @@ Worst Case = O(nlogn)
 Avarage Case = O(nlogn)
 Best Case = O(nlogn)
 ```
+# Binary Search Tree Projesi
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+## Binary Search Tree Aşamaları
+***
+```
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinde soldan okumaya başlarız yani ilk kökümüz 7 olsun kökten büyük olanları kökün sağına küçük olanları ise soluna yazarak ilerleyelim
+```
+```
+            7
+           /       
+```
+```
+            7
+           /
+          5 
+```
+```
+            7
+           /
+          5
+         /
+        1   
+```
+```
+            7
+           / \
+          5   8
+         /
+        1   
+```
+```
+            7
+           / \
+          5   8
+         /
+        1
+        \
+         3        
+```
+```
+            7
+           / \
+          5   8
+         / \
+        1   6 
+        \
+         3        
+```
+```
+            7
+           / \
+          5   8
+         / \
+        1   6 
+       / \
+      0   3        
+```
+```
+            7
+           / \
+          5   8
+         / \   \
+        1   6   9
+       / \
+      0   3        
+```
+```
+            7
+           / \
+          5   8
+         / \   \
+        1   6   9
+       / \
+      0   3
+           \
+            4        
+```
+```
+            7
+           / \
+          5   8
+         / \   \
+        1   6   9
+       / \
+      0   3
+         / \
+        2   4        
+```
+[www.patika.dev](https://www.patika.dev)
